@@ -1,26 +1,52 @@
 {
-    "name": "react-native-daummap",
-    "version": "0.2.9",
-    "description": "react-native use daum map",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/asata/react-native-daummap.git"
-    },
-    "keywords": [
-        "map",
-        "daum",
-        "kakao",
-        "react-naive",
-        "daum map"
-    ],
-    "author": "JeongHun Kang <asata@teamsf.co.kr>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/asata/react-native-daummap/issues"
-    },
-    "homepage": "https://github.com/asata/react-native-daummap#readme"
+  "_from": "git+https://github.com/asata/react-native-daummap.git",
+  "_id": "react-native-daummap@0.2.9",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-daummap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/asata/react-native-daummap.git",
+    "rawSpec": "git+https://github.com/asata/react-native-daummap.git",
+    "saveSpec": "git+https://github.com/asata/react-native-daummap.git",
+    "fetchSpec": "https://github.com/asata/react-native-daummap.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/asata/react-native-daummap.git#6c358ae4627fe8b465bcbbbabd0bdba18951353a",
+  "_spec": "git+https://github.com/asata/react-native-daummap.git",
+  "_where": "/home/jjong/git/react-native-btone",
+  "author": {
+    "name": "JeongHun Kang",
+    "email": "asata@teamsf.co.kr"
+  },
+  "bugs": {
+    "url": "https://github.com/asata/react-native-daummap/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "react-native use daum map",
+  "homepage": "https://github.com/asata/react-native-daummap#readme",
+  "keywords": [
+    "map",
+    "daum",
+    "kakao",
+    "react-naive",
+    "daum map"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-daummap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asata/react-native-daummap.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.9"
 }

@@ -186,7 +186,13 @@ public class DaumMapManager extends SimpleViewManager<View> implements MapView.M
 	public void setIsCompass(MapView mMapView, boolean tCompass) {
 		isCompass = tCompass;
 		setMapTrackingMode(mMapView);
-	}
+    }
+    
+    @ReactProp(name = "region")
+    public void setRegion(MapView mMapView, ReadableMap initialRegion) {
+        double latitude = initialRegion.hasKey("latitude") ? initialRegion.getDouble("latitude") : 36.143099;
+        double longitude = initialRegion.hasKey("longitude") ? initialRegion.getDouble("longitude") : 128.392905; mMapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(latitude, longitude), true);
+    }
 
 	private void setMapTrackingMode (MapView mMapView) {
 		MapView.CurrentLocationTrackingMode trackingModeValue = MapView.CurrentLocationTrackingMode.TrackingModeOff;
